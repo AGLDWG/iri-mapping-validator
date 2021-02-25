@@ -1,0 +1,54 @@
+{
+  "https://environment.data.gov.au": [
+      {
+        "label": "environment.data.gov.au base IRI",
+        "from_iri": "http://environment.data.gov.au",
+        "from_headers": null,
+        "to_iri": "https://www.linked.data.gov.au/environment.data.gov.au",
+        "to_headers": null
+      }
+    ],
+  "http://environment.data.gov.au/def/op": [
+    {
+      "label": "Observable-Properties ontology",
+      "from_iri": "http://environment.data.gov.au/def/op",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/op",
+      "to_headers": null
+    },
+    {
+      "label": "Observable-Properties ontology, Accept Turtle",
+      "from_iri": "http://environment.data.gov.au/def/op",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://environment.data.gov.au/def/_op",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+    "http://environment.data.gov.au/def/ba/glossary": [
+    {
+      "label": "Bioregional Assessment Programme Glossary",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary",
+      "to_headers": null
+    },
+    {
+      "label": "Bioregional Assessment Programme Glossary, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary?_format=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    },
+    {
+      "label": "Bioregional Assessment Programme Glossary, Accept Turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ]
+}
+
+
+
+
