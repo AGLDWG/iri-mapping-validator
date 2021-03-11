@@ -4,7 +4,7 @@
         "label": "environment.data.gov.au base IRI",
         "from_iri": "http://environment.data.gov.au",
         "from_headers": null,
-        "to_iri": "https://www.linked.data.gov.au/environment.data.gov.au",
+        "to_iri": "http://www.linked.data.gov.au/environment.data.gov.au",
         "to_headers": null
       }
     ],
@@ -20,31 +20,80 @@
       "label": "Observable-Properties ontology, Accept Turtle",
       "from_iri": "http://environment.data.gov.au/def/op",
       "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "http://environment.data.gov.au/def/_op",
+      "to_iri": "http://registry2.it.csiro.au/def/op",
       "to_headers": {"Content-Type": "text/turtle;"}
     }
   ],
-    "http://environment.data.gov.au/def/ba/glossary": [
+  "http://environment.data.gov.au/def/ba/glossary": [
     {
-      "label": "Bioregional Assessment Programme Glossary",
+      "label": "BA Glossary",
       "from_iri": "http://environment.data.gov.au/def/ba/glossary",
       "from_headers": null,
       "to_iri": "http://registry2.it.csiro.au/def/ba/glossary",
       "to_headers": null
     },
     {
-      "label": "Bioregional Assessment Programme Glossary, QSA Turtle",
+      "label": "BA Glossary, QSA Turtle",
       "from_iri": "http://environment.data.gov.au/def/ba/glossary?_format=text/turtle",
       "from_headers": null,
       "to_iri": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
       "to_headers": {"Content-Type": "text/turtle;"}
     },
     {
-      "label": "Bioregional Assessment Programme Glossary, Accept Turtle",
+      "label": "BA Glossary, Turtle via file ext",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary.ttl",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+      "to_headers": null
+    },
+    {
+      "label": "BA Glossary, Accept Turtle",
       "from_iri": "http://environment.data.gov.au/def/ba/glossary",
       "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary",
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
       "to_headers": {"Content-Type": "text/turtle;"}
+    },
+    {
+      "label": "BA Glossary, Turtle via native QSA",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary?_format=ttl",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+      "to_headers": null
+    },
+    {
+      "label": "BA Glossary Term aquifer",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer",
+      "to_headers": null
+    },
+    {
+      "label": "BA Glossary Term aquifer, Turtle via file ext",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer.ttl",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+      "to_headers": null
+    },
+    {
+      "label": "BA Glossary Term aquifer, RDF (turtle) via QSA",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer?_format=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+      "to_headers": null
+    },
+    {
+      "label": "BA Glossary Term aquifer, RDF (turtle) via native QSA",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer?_format=ttl",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+      "to_headers": null
+    },
+    {
+      "label": "BA Glossary Term aquifer, RDF (turtle) via conneg",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+      "to_headers": null
     }
   ]
 }
