@@ -1,29 +1,29 @@
 {
-  "https://environment.data.gov.au": [
+  "http://environment.data.gov.au": [
       {
         "label": "environment.data.gov.au base IRI",
         "from_iri": "http://environment.data.gov.au",
         "from_headers": null,
-        "to_iri": "http://www.linked.data.gov.au/environment.data.gov.au",
+        "to_iri": "http://www.linked.data.gov.au/environmentdatagovau",
         "to_headers": null
       }
     ],
-  "http://environment.data.gov.au/def/op": [
-    {
-      "label": "Observable-Properties ontology",
-      "from_iri": "http://environment.data.gov.au/def/op",
-      "from_headers": null,
-      "to_iri": "http://registry2.it.csiro.au/def/op",
-      "to_headers": null
-    },
-    {
-      "label": "Observable-Properties ontology, Accept Turtle",
-      "from_iri": "http://environment.data.gov.au/def/op",
-      "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "http://registry2.it.csiro.au/def/op",
-      "to_headers": {"Content-Type": "text/turtle;"}
-    }
-  ],
+  "http://environment.data.gov.au/def": [
+      {
+        "label": "environment.data.gov.au /def, HTML",
+        "from_iri": "http://environment.data.gov.au/def",
+        "from_headers": null,
+        "to_iri": "http://registry2.it.csiro.au/def",
+        "to_headers": null
+      },
+      {
+        "label": "environment.data.gov.au /def, RDF Turtle",
+        "from_iri": "http://environment.data.gov.au/def?_mediatype=text/turtle",
+        "from_headers": null,
+        "to_iri": "http://registry2.it.csiro.au/def?_format=ttl",
+        "to_headers": null
+      }
+    ],
   "http://environment.data.gov.au/def/ba/glossary": [
     {
       "label": "BA Glossary",
@@ -34,7 +34,7 @@
     },
     {
       "label": "BA Glossary, QSA Turtle",
-      "from_iri": "http://environment.data.gov.au/def/ba/glossary?_format=text/turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary?_mediatype=text/turtle",
       "from_headers": null,
       "to_iri": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
       "to_headers": {"Content-Type": "text/turtle;"}
@@ -76,7 +76,7 @@
     },
     {
       "label": "BA Glossary Term aquifer, RDF (turtle) via QSA",
-      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer?_format=text/turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/glossary/aquifer?_mediatype=text/turtle",
       "from_headers": null,
       "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
       "to_headers": null
@@ -94,6 +94,157 @@
       "from_headers": {"Accept": "text/turtle"},
       "to_iri": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
       "to_headers": null
+    }
+  ],
+  "http://environment.data.gov.au/def/ba/landscape-classification": [
+    {
+      "label": "BA Landscape Classification",
+      "from_iri": "http://environment.data.gov.au/def/ba/landscape-classification",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/landscape-classification",
+      "to_headers": null
+    },
+    {
+      "label": "BA Landscape Classification, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/landscape-classification?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/landscape-classification?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/ba/licence": [
+    {
+      "label": "BA Licenses, HTML",
+      "from_iri": "http://environment.data.gov.au/def/ba/licence",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/licence",
+      "to_headers": null
+    },
+    {
+      "label": "BA Licenses, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/licence?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/licence?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/ba/source": [
+    {
+      "label": "BA Sources, HTML",
+      "from_iri": "http://environment.data.gov.au/def/ba/source",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/source",
+      "to_headers": null
+    },
+    {
+      "label": "BA Sources, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/ba/source?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/ba/source?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/feature": [
+    {
+      "label": "Features, HTML",
+      "from_iri": "http://environment.data.gov.au/def/feature",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/feature",
+      "to_headers": null
+    },
+    {
+      "label": "Features, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/feature?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/feature?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/object": [
+    {
+      "label": "Substances and taxa, HTML",
+      "from_iri": "http://environment.data.gov.au/def/object",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/object",
+      "to_headers": null
+    },
+    {
+      "label": "Substances and taxa, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/object?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/object?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/op": [
+    {
+      "label": "Observable-Properties ontology, HTML",
+      "from_iri": "http://environment.data.gov.au/def/op",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/op",
+      "to_headers": null
+    },
+    {
+      "label": "Observable-Properties ontology, Accept Turtle",
+      "from_iri": "http://environment.data.gov.au/def/op",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://registry2.it.csiro.au/def/op?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    },
+    {
+      "label": "Observable-Properties ontology, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/op?_mediatype=text/turtle",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://registry2.it.csiro.au/def/op?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/property": [
+    {
+      "label": "Properties Collection, HTML",
+      "from_iri": "http://environment.data.gov.au/def/property",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/property",
+      "to_headers": null
+    },
+    {
+      "label": "Properties Collection, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/property?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/property?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/quantity-kind": [
+    {
+      "label": "Water Quality Quantity Kind Individuals, HTML",
+      "from_iri": "http://environment.data.gov.au/def/quantity-kind",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/quantity-kind",
+      "to_headers": null
+    },
+    {
+      "label": "Water Quality Quantity Kind Individuals, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/quantity-kind?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/quantity-kind?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "http://environment.data.gov.au/def/unit": [
+    {
+      "label": "Units of Measure for water quality observations, HTML",
+      "from_iri": "http://environment.data.gov.au/def/unit",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/unit",
+      "to_headers": null
+    },
+    {
+      "label": "Units of Measure for water quality observations, QSA Turtle",
+      "from_iri": "http://environment.data.gov.au/def/unit?_mediatype=text/turtle",
+      "from_headers": null,
+      "to_iri": "http://registry2.it.csiro.au/def/unit?_format=ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
     }
   ]
 }
