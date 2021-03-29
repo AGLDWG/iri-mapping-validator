@@ -40,7 +40,11 @@ if __name__ == "__main__":
     #     for iri in v:
     #         results.append(validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"]))
 
-    d = load_domain("linked.data.gov.au-vocabs.json")
+    d = json.load(open("linked.data.gov.au-registers.json"))
+    d.update(json.load(open("linked.data.gov.au-ontologies.json")))
+    d.update(json.load(open("linked.data.gov.au-vocabs.json")))
+    d.update(json.load(open("linked.data.gov.au-datasets.json")))
+    d.update(json.load(open("linked.data.gov.au-linksets.json")))
     results = []
     print("ANY FAILURES")
     for k, v in d.items():

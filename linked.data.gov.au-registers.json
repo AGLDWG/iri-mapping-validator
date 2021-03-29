@@ -1,0 +1,82 @@
+{
+  "https://linked.data.gov.au": [
+    {
+      "label": "linked.data.gov.au base IRI, HTML",
+      "from_iri": "https://linked.data.gov.au",
+      "from_headers": null,
+      "to_iri": "https://www.linked.data.gov.au",
+      "to_headers": null
+    },
+    {
+      "label": "linked.data.gov.au base IRI, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://raw.githack.com/AGLDWG/website/master/files/root.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/reg/": [
+    {
+      "label": "linked.data.gov.au base Register, HTML",
+      "from_iri": "https://linked.data.gov.au/reg/",
+      "from_headers": null,
+      "to_iri": "https://www.linked.data.gov.au/reg/",
+      "to_headers": null
+    },
+    {
+      "label": "linked.data.gov.au base Register, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/reg/",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://raw.githack.com/AGLDWG/website/master/files/reg.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset": [
+    {
+      "label": "Datasets IRIs Register, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset",
+      "from_headers": null,
+      "to_iri": "https://www.linked.data.gov.au/dataset",
+      "to_headers": null
+    },
+    {
+      "label": "Datasets IRIs Register, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://raw.githack.com/AGLDWG/website/master/files/dataset.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/def": [
+    {
+      "label": "Definitions IRIs Register, HTML",
+      "from_iri": "https://linked.data.gov.au/def",
+      "from_headers": null,
+      "to_iri": "https://www.linked.data.gov.au/def",
+      "to_headers": null
+    },
+    {
+      "label": "Definitions IRIs Register, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://raw.githack.com/AGLDWG/website/master/files/def.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/org": [
+    {
+      "label": "Organisations IRIs Register, HTML",
+      "from_iri": "https://linked.data.gov.au/org",
+      "from_headers": null,
+      "to_iri": "https://www.linked.data.gov.au/org",
+      "to_headers": null
+    },
+    {
+      "label": "Organisations IRIs Register, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/org",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://raw.githack.com/AGLDWG/website/master/files/org.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ]
+}

@@ -1,0 +1,194 @@
+{
+  "https://linked.data.gov.au/dataset/asgs2011": [
+    {
+      "label": "ASGS 2011 Dataset, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/asgs2011",
+      "from_headers": null,
+      "to_iri": "http://asgsld.net/2011",
+      "to_headers": null
+    },
+    {
+      "label": "ASGS 2011 Dataset, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/asgs2011",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://asgsld.net/2011/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/asgs2016": [
+    {
+      "label": "ASGS 2016 Dataset, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/asgs2016",
+      "from_headers": null,
+      "to_iri": "http://asgsld.net/2016",
+      "to_headers": null
+    },
+    {
+      "label": "ASGS 2016 Dataset, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/asgs2016",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://asgsld.net/2016/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/bioregion": [
+    {
+      "label": "TERN Bioregions Dataset, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/bioregion",
+      "from_headers": null,
+      "to_iri": "http://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/dataset/bioregion/ibra7",
+      "to_headers": null
+    },
+    {
+      "label": "TERN Bioregions Dataset, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/bioregion",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/dataset/bioregion/?_format=text/turtle",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/data-policies": [
+    {
+      "label": "CSIRO Licence Catalogue, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/data-policies",
+      "from_headers": null,
+      "to_iri": "https://licences.csiro.au/",
+      "to_headers": null
+    },
+    {
+      "label": "CSIRO Licence Catalogue, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/data-policies",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://licences.csiro.au/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/energy": [
+    {
+      "label": "The NEAR Program's Dataset Catalogue, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/energy",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/energy-dataset/master/energy.html",
+      "to_headers": null
+    },
+    {
+      "label": "The NEAR Program's Dataset Catalogue, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/energy",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://raw.githack.com/AGLDWG/energy-dataset/master/energy.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/geofabric": [
+    {
+      "label": "Geofabric - distributed as Linked Data, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/geofabric",
+      "from_headers": null,
+      "to_iri": "https://geofabricld.net",
+      "to_headers": null
+    },
+    {
+      "label": "Geofabric - distributed as Linked Data, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/geofabric",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://geofabricld.net/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/qldgeofeatures": [
+    {
+      "label": "Queensland Geological Features Dataset, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/qldgeofeatures",
+      "from_headers": null,
+      "to_iri": "https://gsq.cat/qldgeofeatures",
+      "to_headers": null
+    },
+    {
+      "label": "Queensland Geological Features Dataset, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/qldgeofeatures",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://gsq.cat/qldgeofeatures/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/gnaf": [
+    {
+      "label": "G-NAF - distributed as Linked Data, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/gnaf",
+      "from_headers": null,
+      "to_iri": "https://gnafld.net",
+      "to_headers": null
+    },
+    {
+      "label": "G-NAF - distributed as Linked Data, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/gnaf",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://gnafld.net/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/gnaf-2016-05": [
+    {
+      "label": "G-NAF 2016-05 - distributed as Linked Data, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/gnaf-2016-05",
+      "from_headers": null,
+      "to_iri": "https://gnafld.net/2016-05",
+      "to_headers": null
+    },
+    {
+      "label": "G-NAF 2016-05 - distributed as Linked Data, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/gnaf-2016-05",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://gnafld.net/2016-05/index.ttl",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/placenames": [
+    {
+      "label": "National Composite Gazetteer of Australia, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/placenames",
+      "from_headers": null,
+      "to_iri": "http://fsdf.org.au/dataset/placenames",
+      "to_headers": null
+    },
+    {
+      "label": "National Composite Gazetteer of Australia, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/placenames",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "http://fsdf.org.au/dataset/placenames?_mediatype=text/turtle",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/ausplots": [
+    {
+      "label": "AusPlots Dataset, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/ausplots",
+      "from_headers": null,
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/ausplots/&sparql=https://graphdb.tern.org.au/repositories/ecoplots",
+      "to_headers": null
+    },
+    {
+      "label": "AusPlots Dataset, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/ausplots",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/ausplots/&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/corveg": [
+    {
+      "label": "CorVeg Dataset, HTML",
+      "from_iri": "https://linked.data.gov.au/dataset/corveg",
+      "from_headers": null,
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg/&sparql=https://graphdb.tern.org.au/repositories/ecoplots",
+      "to_headers": null
+    },
+    {
+      "label": "CorVeg Dataset, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/dataset/corveg",
+      "from_headers": {"Accept": "text/turtle"},
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg/&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
+      "to_headers": {"Content-Type": "text/turtle;"}
+    }
+  ]
+}
