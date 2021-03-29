@@ -34,20 +34,19 @@ def load_domain(domain_file: str):
 
 
 if __name__ == "__main__":
-    d = load_domain("environment.data.gov.au.json")
+    # d = load_domain("environment.data.gov.au.json")
+    # results = []
+    # for k, v in d.items():
+    #     for iri in v:
+    #         results.append(validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"]))
+
+    d = load_domain("linked.data.gov.au.json")
     results = []
     for k, v in d.items():
         for iri in v:
-            results.append(validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"]))
-
-    # results = []
-    # results.append(
-    #     validate_redirect("AGRIF", "https://linked.data.gov.au/def/agrif", None,
-    #                       "https://raw.githack.com/agldwg/agrif-ont/master/agrif.html")
-    # )
-    # results.append(
-    #     validate_redirect("AGRIF", "https://linked.data.gov.au/def/agrif", {"Accept": "text/turtle"},
-    #                   "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl")
-    # )
+            vr = validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"])
+            results.append(vr)
+            if not vr.success:
+                print("from: {}, to: {}, got: {}".format(iri["from_iri"], iri["to_iri"], vr.actual_result))
     for r in results:
         print(r.success, r.label)
