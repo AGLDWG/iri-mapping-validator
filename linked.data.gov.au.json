@@ -271,5 +271,486 @@
       "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg/&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
       "to_headers": {"Content-Type": "text/turtle;"}
     }
+  ],
+
+  "https://linked.data.gov.au/def/agop": [
+    {
+      "label": "Australian Government Ontology Profile, HTML",
+      "from_iri": "https://linked.data.gov.au/def/agop",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/agop/master/agop.html",
+      "to_headers": null
+    },
+    {
+      "label": "Australian Government Ontology Profile, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/agop",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/agop/master/agop.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/agrif": [
+    {
+      "label": "AGRIF ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/agrif",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.html",
+      "to_headers": null
+    },
+    {
+      "label": "AGRIF ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/agrif",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/asgs": [
+    {
+      "label": "ASGS Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/asgs",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.html",
+      "to_headers": null
+    },
+    {
+      "label": "ASGS Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/asgs",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/auspix": [
+    {
+      "label": "AusPIX Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/auspix",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/AusPIX-DGGS-ontology/master/auspix.html",
+      "to_headers": null
+    },
+    {
+      "label": "AusPIX Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/auspix",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/AusPIX-DGGS-ontology/master/auspix.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/borehole": [
+    {
+      "label": "GSQ Borehole Profile, HTML",
+      "from_iri": "https://linked.data.gov.au/def/borehole",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.html",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ Borehole Profile, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/borehole",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/crs": [
+    {
+      "label": "Commonwealth Record Series Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/crs",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/html/crs.html",
+      "to_headers": null
+    },
+    {
+      "label": "Commonwealth Record Series Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/crs",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/dataset": [
+    {
+      "label": "Dataset Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/dataset",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html",
+      "to_headers": null
+    },
+    {
+      "label": "Dataset Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/dataset",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/datatype": [
+    {
+      "label": "Datatypes, HTML",
+      "from_iri": "https://linked.data.gov.au/def/datatype",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/datatype-ont/master/html/datatype.html",
+      "to_headers": null
+    },
+    {
+      "label": "Datatypes, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/datatype",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/fsdf": [
+    {
+      "label": "FSDF ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/fsdf",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.html",
+      "to_headers": null
+    },
+    {
+      "label": "FSDF ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/fsdf",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geofeatures": [
+    {
+      "label": "Geologic Features Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geofeatures",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.html",
+      "to_headers": null
+    },
+    {
+      "label": "Geologic Features Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geofeatures",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geoqk": [
+    {
+      "label": "Geological Quantity Kinds, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geoqk",
+      "from_headers": null,
+      "to_iri": "https://vocabs.gsq.digital/vocabulary/geoqk",
+      "to_headers": null
+    },
+    {
+      "label": "Geological Quantity Kinds, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geoqk",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.gsq.digital/vocabulary/geoqk",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+        }
+      }
+  ],
+  "https://linked.data.gov.au/def/geou": [
+    {
+      "label": "Geoscience Profile of QUDT Units, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geou",
+      "from_headers": null,
+      "to_iri": "https://vocabs.gsq.digital/vocabulary/geou",
+      "to_headers": null
+    },
+    {
+      "label": "Geoscience Profile of QUDT Units, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geou",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.gsq.digital/vocabulary/geou?uri=http://linked.data.gov.au/def/geou&_profile=skos&_mediatype=text/turtle",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+        }
+      }
+  ],
+  "https://linked.data.gov.au/def/geox": [
+    {
+      "label": "GeoSPARQL Extensions Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geox",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geosparql-ext-ont/master/geox.html",
+      "to_headers": null
+    },
+    {
+      "label": "GeoSPARQL Extensions Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geox",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geosparql-ext-ont/master/geox.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/gnaf": [
+    {
+      "label": "GNAF ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/gnaf",
+      "from_headers": null,
+      "to_iri": "http://gnafld.net/def/gnaf",
+      "to_headers": null
+    },
+    {
+      "label": "GNAF ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/gnaf",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "http://gnafld.net/def/gnaf.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/iso19160-1-address": [
+    {
+      "label": "ISO19160-1 Address ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/iso19160-1-address",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html",
+      "to_headers": null
+    },
+    {
+      "label": "ISO19160-1 Address ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/iso19160-1-address",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
+    {
+      "label": "ISO19160-1 Address ontology, NZ Profile, HTML",
+      "from_iri": "https://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.html",
+      "to_headers": null
+    },
+    {
+      "label": "ISO19160-1 Address ontology, NZ Profile, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/loci": [
+    {
+      "label": "Loc-I Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/loci",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.html",
+      "to_headers": null
+    },
+    {
+      "label": "Loc-I Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/loci",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geoadminfeatures": [
+    {
+      "label": "GSQ Geological Administrative Features Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geoadminfeatures",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.html",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ Geological Administrative Features Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geoadminfeatures",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geofabric": [
+    {
+      "label": "Geofabric Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geofabric",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.html",
+      "to_headers": null
+    },
+    {
+      "label": "Geofabric Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geofabric",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/phs": [
+    {
+      "label": "Plant Health Surveillance Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/phs",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/phs-ont/master/phs.html",
+      "to_headers": null
+    },
+    {
+      "label": "Plant Health Surveillance Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/phs",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/phs-ont/master/phs.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/placenames": [
+    {
+      "label": "Place Names Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/placenames",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.html",
+      "to_headers": null
+    },
+    {
+      "label": "Place Names Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/placenames",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/plot": [
+    {
+      "label": "TERN Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/plot",
+      "from_headers": null,
+      "to_iri": "https://ternaustralia.github.io/ontology_tern-plot/",
+      "to_headers": null
+    },
+    {
+      "label": "TERN Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/plot",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/project": [
+    {
+      "label": "A Project ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/project",
+      "from_headers": null,
+      "to_iri": "https://dr-shorthair.github.io/project-ont/docs/",
+      "to_headers": null
+    },
+    {
+      "label": "A Project ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/project",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/dr-shorthair/project-ont/gh-pages/rdf/project.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/su": [
+    {
+      "label": "Stratigraphic Units Profile, HTML",
+      "from_iri": "https://linked.data.gov.au/def/su",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/surroundaustralia/su-ont/master/profile.html",
+      "to_headers": null
+    },
+    {
+      "label": "Stratigraphic Units Profile, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/su",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/surroundaustralia/su-ont/master/profile.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
   ]
 }
