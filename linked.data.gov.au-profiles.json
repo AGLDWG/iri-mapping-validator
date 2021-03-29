@@ -1,0 +1,22 @@
+{
+  "https://linked.data.gov.au/def/ga-vocpub": [
+    {
+      "label": "GA VocPub Profile, HTML",
+      "from_iri": "https://linked.data.gov.au/def/ga-vocpub",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.html",
+      "to_headers": null
+    },
+    {
+      "label": "GA VocPub Profile, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/ga-vocpub",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/surroundaustralia/ga-vocpub-profile/master/profile.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ]
+}

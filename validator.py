@@ -45,14 +45,19 @@ if __name__ == "__main__":
     d.update(json.load(open("linked.data.gov.au-vocabs.json")))
     d.update(json.load(open("linked.data.gov.au-datasets.json")))
     d.update(json.load(open("linked.data.gov.au-linksets.json")))
+    d.update(json.load(open("linked.data.gov.au-profiles.json")))
     results = []
-    print("ANY FAILURES")
+    print("FAILURES")
+    no_failures = True
     for k, v in d.items():
         for iri in v:
             vr = validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"])
             results.append(vr)
             if not vr.success:
+                no_failures = False
                 print("for \"{}\", to: {}, got: {}".format(iri["label"], iri["to_iri"], vr.actual_result))
+    if no_failures:
+        print("none")
     print()
     print("ALL RESULTS")
     for r in results:

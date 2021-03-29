@@ -179,6 +179,46 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/geoadminfeatures": [
+    {
+      "label": "GSQ Geological Administrative Features Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geoadminfeatures",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.html",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ Geological Administrative Features Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geoadminfeatures",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geofabric": [
+    {
+      "label": "Geofabric Ontology, HTML",
+      "from_iri": "https://linked.data.gov.au/def/geofabric",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.html",
+      "to_headers": null
+    },
+    {
+      "label": "Geofabric Ontology, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/geofabric",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/geofeatures": [
     {
       "label": "Geologic Features Ontology, HTML",
@@ -334,46 +374,6 @@
         "Accept": "text/turtle"
       },
       "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
-      "to_headers": {
-        "Content-Type": "text/turtle;"
-      }
-    }
-  ],
-  "https://linked.data.gov.au/def/geoadminfeatures": [
-    {
-      "label": "GSQ Geological Administrative Features Ontology, HTML",
-      "from_iri": "https://linked.data.gov.au/def/geoadminfeatures",
-      "from_headers": null,
-      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.html",
-      "to_headers": null
-    },
-    {
-      "label": "GSQ Geological Administrative Features Ontology, Accept Turtle",
-      "from_iri": "https://linked.data.gov.au/def/geoadminfeatures",
-      "from_headers": {
-        "Accept": "text/turtle"
-      },
-      "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl",
-      "to_headers": {
-        "Content-Type": "text/turtle;"
-      }
-    }
-  ],
-  "https://linked.data.gov.au/def/geofabric": [
-    {
-      "label": "Geofabric Ontology, HTML",
-      "from_iri": "https://linked.data.gov.au/def/geofabric",
-      "from_headers": null,
-      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.html",
-      "to_headers": null
-    },
-    {
-      "label": "Geofabric Ontology, Accept Turtle",
-      "from_iri": "https://linked.data.gov.au/def/geofabric",
-      "from_headers": {
-        "Accept": "text/turtle"
-      },
-      "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
       "to_headers": {
         "Content-Type": "text/turtle;"
       }
