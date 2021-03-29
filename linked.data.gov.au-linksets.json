@@ -1,0 +1,162 @@
+{
+    "https://linked.data.gov.au/dataset/agiftcrsth": [
+      {
+        "label": "AGIFT / CRS-Th Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/agiftcrsth",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/agiftcrsth-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "AGIFT / CRS-Th Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/agiftcrsth",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githubusercontent.com/CSIRO-enviro-informatics/agiftcrsth-linkset/master/agiftcrsth.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/mb16mb11": [
+      {
+        "label": "MB16 / MB11 Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/mb16mb11",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/mb16mb11-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "MB16 / MB11 Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/mb16mb11",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/mb16mb11-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/mb16cc": [
+      {
+        "label": "MB16 / CC Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/mb16cc",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/mb16cc-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "MB16 / CC Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/mb16cc",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/mb16cc-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/addr1605mb11": [
+      {
+        "label": "Addr1605 / MB11 Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/addr1605mb11",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/addr1605mb11-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "Addr1605 / MB11 Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/addr1605mb11",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/addr1605mb11-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/addr1605mb16": [
+      {
+        "label": "Addr1605 / MB16 Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/addr1605mb16",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/addr1605mb16-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "Addr1605 / MB16 Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/addr1605mb16",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/addr1605mb16-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/addrmb11": [
+      {
+        "label": "Addr / MB11 Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/addrmb11",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/addrmb11-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "Addr / MB11 Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/addrmb11",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/addrmb11-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/addrmb16": [
+      {
+        "label": "Addr / MB16 Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/addrmb16",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/addrmb16-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "Addr / MB16 Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/addrmb16",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/addrmb16-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ],
+    "https://linked.data.gov.au/dataset/addrcatch": [
+      {
+        "label": "Addr / CC Linkset, HTML",
+        "from_iri": "https://linked.data.gov.au/dataset/addrcatch",
+        "from_headers": null,
+        "to_iri": "https://github.com/CSIRO-enviro-informatics/addrcatch-linkset",
+        "to_headers": null
+      },
+      {
+        "label": "Addr / CC Linkset, Accept Turtle",
+        "from_iri": "https://linked.data.gov.au/dataset/addrcatch",
+        "from_headers": {
+          "Accept": "text/turtle"
+        },
+        "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/addrcatch-linkset/master/header.ttl",
+        "to_headers": {
+          "Content-Type": "text/turtle;"
+        }
+      }
+    ]
+}

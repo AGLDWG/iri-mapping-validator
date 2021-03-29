@@ -1,0 +1,102 @@
+{
+  "https://linked.data.gov.au/def/ausplots-cv": [
+    {
+      "label": "TERN's AusPlots, HTML",
+      "from_iri": "https://linked.data.gov.au/def/ausplots-cv",
+      "from_headers": null,
+      "to_iri": "https://linkeddata.tern.org.au/viewer/tern/",
+      "to_headers": null
+    },
+    {
+      "label": "TERN's AusPlots, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/ausplots-cv",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://linkeddata.tern.org.au/viewer/tern/download",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/corveg-cv": [
+    {
+      "label": "TERN's CorVeg, HTML",
+      "from_iri": "https://linked.data.gov.au/def/corveg-cv",
+      "from_headers": null,
+      "to_iri": "http://linkeddata.tern.org.au/viewer/corveg/",
+      "to_headers": null
+    },
+    {
+      "label": "TERN's CorVeg, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/corveg-cv",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://linkeddata.tern.org.au/viewer/corveg/download",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/gba": [
+    {
+      "label": "Geological and Bioregional Assessments, HTML",
+      "from_iri": "https://linked.data.gov.au/def/gba",
+      "from_headers": null,
+      "to_iri": "http://registry.it.csiro.au/def/gba",
+      "to_headers": null
+    },
+    {
+      "label": "Geological and Bioregional Assessments, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/gba",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "http://registry.it.csiro.au/def/gba?_format=ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/reg-status": [
+    {
+      "label": "Registry Status Vocabulary, HTML",
+      "from_iri": "https://linked.data.gov.au/def/reg-status",
+      "from_headers": null,
+      "to_iri": "https://raw.githack.com/AGLDWG/reg-status/master/index.html",
+      "to_headers": null
+    },
+    {
+      "label": "Registry Status Vocabulary, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/reg-status",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://raw.githack.com/AGLDWG/reg-status/master/index.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/address-type": [
+    {
+      "label": "GSQ's Address Type, HTML",
+      "from_iri": "https://linked.data.gov.au/def/address-type",
+      "from_headers": null,
+      "to_iri": "https://vocabs.gsq.digital/vocabulary/address-type",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ's Address Type, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/address-type",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "http://vocabs.gsq.digital/vocabulary/address-type?uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ]
+}
