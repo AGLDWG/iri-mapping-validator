@@ -42,11 +42,14 @@ if __name__ == "__main__":
 
     d = load_domain("linked.data.gov.au.json")
     results = []
+    print("ANY FAILURES")
     for k, v in d.items():
         for iri in v:
             vr = validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"])
             results.append(vr)
             if not vr.success:
-                print("from: {}, to: {}, got: {}".format(iri["from_iri"], iri["to_iri"], vr.actual_result))
+                print("for \"{}\", to: {}, got: {}".format(iri["label"], iri["to_iri"], vr.actual_result))
+    print()
+    print("ALL RESULTS")
     for r in results:
         print(r.success, r.label)
