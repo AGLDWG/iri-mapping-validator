@@ -15,7 +15,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/agop/master/agop.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -35,7 +35,7 @@
       },
       "to_iri": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -55,7 +55,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -75,7 +75,7 @@
       },
       "to_iri": "https://raw.githack.com/GeoscienceAustralia/AusPIX-DGGS-ontology/master/auspix.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -95,7 +95,7 @@
       },
       "to_iri": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -115,7 +115,7 @@
       },
       "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -135,7 +135,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -155,7 +155,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -175,7 +175,7 @@
       },
       "to_iri": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -195,7 +195,7 @@
       },
       "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geoadmin-features-ont/master/geoadminfeatures.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -215,7 +215,7 @@
       },
       "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -235,7 +235,7 @@
       },
       "to_iri": "https://raw.githack.com/geological-survey-of-queensland/geofeatures-ont/master/geofeatures.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -255,7 +255,7 @@
       },
       "to_iri": "https://vocabs.gsq.digital/vocabulary/geoqk",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
         }
       }
   ],
@@ -275,7 +275,7 @@
       },
       "to_iri": "https://vocabs.gsq.digital/vocabulary/geou?uri=http://linked.data.gov.au/def/geou&_profile=skos&_mediatype=text/turtle",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
         }
       }
   ],
@@ -295,7 +295,7 @@
       },
       "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/geosparql-ext-ont/master/geox.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -315,7 +315,7 @@
       },
       "to_iri": "http://gnafld.net/def/gnaf.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -335,7 +335,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -355,7 +355,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -375,7 +375,7 @@
       },
       "to_iri": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -395,7 +395,7 @@
       },
       "to_iri": "https://raw.githack.com/AGLDWG/phs-ont/master/phs.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -415,7 +415,7 @@
       },
       "to_iri": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -435,7 +435,7 @@
       },
       "to_iri": "https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -455,7 +455,7 @@
       },
       "to_iri": "https://raw.githack.com/dr-shorthair/project-ont/gh-pages/rdf/project.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ],
@@ -475,7 +475,7 @@
       },
       "to_iri": "https://raw.githack.com/surroundaustralia/su-ont/master/profile.ttl",
       "to_headers": {
-        "Content-Type": "text/turtle;"
+        "Content-Type": "text/turtle"
       }
     }
   ]
