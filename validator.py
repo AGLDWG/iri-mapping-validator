@@ -32,11 +32,11 @@ def validate_redirect(label: str, from_iri: str, from_headers: dict, to_iri: str
     )
 
 
-async def get_many(urls):
+async def get_many(urls, headers=None):
     async def get_async(url):
         try:
             async with httpx.AsyncClient() as client:
-                return await client.get(url)
+                return await client.get(url, headers=headers)
         except Exception as e:
             print(url)
             print(e)
@@ -50,6 +50,25 @@ def http_failures(urls):
     return [
         (results[0], results[1].status_code)
         for results in results if hasattr(results[1], "is_error") and results[1].is_error]
+
+
+def http_rdf_failures(urls):
+    results = asyncio.run(get_many(urls, headers={"Accept": "text/turtle"}))
+    return [
+        (results[0], results[1].status_code)
+        for results in results if hasattr(results[1], "is_error") and results[1].is_error]
+
+
+def ld_failures(urls):
+    results = asyncio.run(get_many(urls))
+    results_rdf = asyncio.run(get_many(urls, headers={"Accept": "text/turtle"}))
+    results_all = []
+    for r in range(len(results)):
+        if hasattr(results[r][1], "is_error") and results[r][1].is_error or \
+                hasattr(results_rdf[r][1], "is_error") and results_rdf[r][1].is_error:
+            results_all.append((results[r][0], results[r][1], results_rdf[r][1]))
+
+    return results_all
 
 
 def load_domain(domain_file: str):
@@ -74,13 +93,14 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
+    d = json.load(open("linked.data.gov.au-registers.json"))
+    d.update(json.load(open("linked.data.gov.au-ontologies.json")))
+    d.update(json.load(open("linked.data.gov.au-vocabs.json")))
+    d.update(json.load(open("linked.data.gov.au-datasets.json")))
+    d.update(json.load(open("linked.data.gov.au-linksets.json")))
+    d.update(json.load(open("linked.data.gov.au-profiles.json")))
+
     if args.mode == "mappings":  # default
-        d = json.load(open("linked.data.gov.au-registers.json"))
-        d.update(json.load(open("linked.data.gov.au-ontologies.json")))
-        d.update(json.load(open("linked.data.gov.au-vocabs.json")))
-        d.update(json.load(open("linked.data.gov.au-datasets.json")))
-        d.update(json.load(open("linked.data.gov.au-linksets.json")))
-        d.update(json.load(open("linked.data.gov.au-profiles.json")))
         results = []
         print("FAILURES")
         no_failures = True
@@ -98,20 +118,14 @@ if __name__ == "__main__":
         for r in results:
             print(r.success, r.label)
     elif args.mode == "failures":
-        d = json.load(open("linked.data.gov.au-registers.json"))
-        d.update(json.load(open("linked.data.gov.au-ontologies.json")))
-        d.update(json.load(open("linked.data.gov.au-vocabs.json")))
-        d.update(json.load(open("linked.data.gov.au-datasets.json")))
-        d.update(json.load(open("linked.data.gov.au-linksets.json")))
-        d.update(json.load(open("linked.data.gov.au-profiles.json")))
-
         print("FAILURES")
         for f in http_failures([x for x in d.keys()]):
             print(f[0], f[1])
-        # url_in = "https://linked.data.gov.au/def/agrif"
-        # r = httpx.get(url_in)
-        # print((url_in, r.url))
     elif args.mode == "rdf":
-        print("rdf")
+        print("FAILURES")
+        for f in http_failures([x for x in d.keys()]):
+            print(f[0], f[1])
     elif args.mode == "ld":
-        print("ld")
+        print("FAILURES")
+        for f in ld_failures([x for x in d.keys()]):
+            print(f[0], f[1].status_code, f[2].status_code)
