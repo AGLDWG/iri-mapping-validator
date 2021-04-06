@@ -40,6 +40,7 @@ async def get_many(urls, headers=None):
         except Exception as e:
             print(url)
             print(e)
+            return httpx.Response(status_code=500)
 
     resps = await asyncio.gather(*map(get_async, urls))
     return tuple(zip(urls, resps))
@@ -122,10 +123,18 @@ if __name__ == "__main__":
         for f in http_failures([x for x in d.keys()]):
             print(f[0], f[1])
     elif args.mode == "rdf":
+        urls = [x for x in d.keys()]
         print("FAILURES")
-        for f in http_failures([x for x in d.keys()]):
+        failed = []
+        for f in http_failures(urls):
             print(f[0], f[1])
+            failed.append(f[0])
+
+        print()
+        print("WORKING")
+        # print all those working
+        print("\n".join(sorted(list(set(urls) - set(failed)))))
     elif args.mode == "ld":
         print("FAILURES")
         for f in ld_failures([x for x in d.keys()]):
-            print(f[0], f[1].status_code, f[2].status_code)
+            print("{}: HTML {}, RDF {}".format(f[0], f[1].status_code, f[2].status_code))

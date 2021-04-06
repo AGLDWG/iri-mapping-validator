@@ -100,14 +100,14 @@
       "label": "Queensland Geological Features Dataset, HTML",
       "from_iri": "https://linked.data.gov.au/dataset/qldgeofeatures",
       "from_headers": null,
-      "to_iri": "https://gsq.cat/qldgeofeatures",
+      "to_iri": "https://github.com/geological-survey-of-queensland/qldgeofeatures-dataset",
       "to_headers": null
     },
     {
       "label": "Queensland Geological Features Dataset, Accept Turtle",
       "from_iri": "https://linked.data.gov.au/dataset/qldgeofeatures",
       "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "https://gsq.cat/qldgeofeatures/index.ttl",
+      "to_iri": "https://raw.githubusercontent.com/geological-survey-of-queensland/qldgeofeatures-dataset/master/_data/features.ttl",
       "to_headers": {"Content-Type": "text/turtle"}
     }
   ],

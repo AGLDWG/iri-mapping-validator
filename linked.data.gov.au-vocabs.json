@@ -84,7 +84,7 @@
       "label": "GSQ's Address Type, HTML",
       "from_iri": "https://linked.data.gov.au/def/address-type",
       "from_headers": null,
-      "to_iri": "https://vocabs.gsq.digital/vocabulary/address-type",
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type",
       "to_headers": null
     },
     {
@@ -93,7 +93,45 @@
       "from_headers": {
         "Accept": "text/turtle"
       },
-      "to_iri": "http://vocabs.gsq.digital/vocabulary/address-type?uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/trs": [
+    {
+      "label": "GSQ's Temporal Reference Systems, HTML",
+      "from_iri": "https://linked.data.gov.au/def/trs",
+      "from_headers": null,
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=trs&uri=http://linked.data.gov.au/def/trs",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ's Temporal Reference Systems, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/trs",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=trs&uri=http://linked.data.gov.au/def/trs&_mediatype=text/turtle",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    },
+    {
+      "label": "GSQ's Temporal Reference Systems, Bahá'í Calendar Concept, HTML",
+      "from_iri": "https://linked.data.gov.au/def/trs/BahaiCalendar",
+      "from_headers": null,
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=trs&uri=http://linked.data.gov.au/def/trs/BahaiCalendar",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ's Temporal Reference Systems, Bahá'í Calendar Concept, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/trs/BahaiCalendar",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=trs&uri=http://linked.data.gov.au/def/trs/BahaiCalendar&_mediatype=text/turtle",
       "to_headers": {
         "Content-Type": "text/turtle;"
       }
