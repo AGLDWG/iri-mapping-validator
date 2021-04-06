@@ -126,7 +126,7 @@ if __name__ == "__main__":
         urls = [x for x in d.keys()]
         print("FAILURES")
         failed = []
-        for f in http_failures(urls):
+        for f in http_rdf_failures(urls):
             print(f[0], f[1])
             failed.append(f[0])
 
