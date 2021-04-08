@@ -404,7 +404,7 @@
       "label": "Place Names Ontology, HTML",
       "from_iri": "https://linked.data.gov.au/def/placenames",
       "from_headers": null,
-      "to_iri": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.html",
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/Placenames-Ontology/master/placenames.html",
       "to_headers": null
     },
     {
@@ -413,7 +413,7 @@
       "from_headers": {
         "Accept": "text/turtle"
       },
-      "to_iri": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
+      "to_iri": "https://raw.githack.com/GeoscienceAustralia/Placenames-Ontology/master/placenames.ttl",
       "to_headers": {
         "Content-Type": "text/turtle"
       }
