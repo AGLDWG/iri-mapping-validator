@@ -36,14 +36,14 @@
       "label": "TERN Bioregions Dataset, HTML",
       "from_iri": "https://linked.data.gov.au/dataset/bioregion",
       "from_headers": null,
-      "to_iri": "http://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/dataset/bioregion/ibra7",
+      "to_iri": "https://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/dataset/bioregion/IBRA7",
       "to_headers": null
     },
     {
       "label": "TERN Bioregions Dataset, Accept Turtle",
       "from_iri": "https://linked.data.gov.au/dataset/bioregion",
       "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "http://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/dataset/bioregion/?_format=text/turtle",
+      "to_iri": "https://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/dataset/bioregion/IBRA7",
       "to_headers": {"Content-Type": "text/turtle"}
     }
   ],

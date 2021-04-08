@@ -95,11 +95,11 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     d = json.load(open("linked.data.gov.au-registers.json"))
-    d.update(json.load(open("linked.data.gov.au-ontologies.json")))
-    d.update(json.load(open("linked.data.gov.au-vocabs.json")))
+    # d.update(json.load(open("linked.data.gov.au-ontologies.json")))
+    # d.update(json.load(open("linked.data.gov.au-vocabs.json")))
     d.update(json.load(open("linked.data.gov.au-datasets.json")))
-    d.update(json.load(open("linked.data.gov.au-linksets.json")))
-    d.update(json.load(open("linked.data.gov.au-profiles.json")))
+    # d.update(json.load(open("linked.data.gov.au-linksets.json")))
+    # d.update(json.load(open("linked.data.gov.au-profiles.json")))
 
     if args.mode == "mappings":  # default
         results = []
