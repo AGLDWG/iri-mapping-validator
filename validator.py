@@ -77,7 +77,16 @@ def load_domain(domain_file: str):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(formatter_class=RawTextHelpFormatter, epilog="""This is \n some, multi-line\n\n eiplog stuff.""")
+    parser = argparse.ArgumentParser(
+        formatter_class=RawTextHelpFormatter,
+        # epilog="""This is \n some, multi-line\n\n eiplog stuff."""
+    )
+
+    parser.add_argument(
+        "irifiles",
+        help="The JSON file(s) containing IRIs to validate redirections from/to. Separate files with commas, no spaces."
+    )
+
     parser.add_argument(
         "-m",
         "--mode",
@@ -94,12 +103,10 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    d = json.load(open("linked.data.gov.au-registers.json"))
-    d.update(json.load(open("linked.data.gov.au-ontologies.json")))
-    d.update(json.load(open("linked.data.gov.au-vocabs.json")))
-    d.update(json.load(open("linked.data.gov.au-datasets.json")))
-    d.update(json.load(open("linked.data.gov.au-linksets.json")))
-    d.update(json.load(open("linked.data.gov.au-profiles.json")))
+    files = args.irifiles.split(",")
+    d = {}
+    for file in files:
+        d.update(json.load(open(file)))
 
     if args.mode == "mappings":  # default
         results = []
