@@ -1,4 +1,24 @@
 {
+  "https://linked.data.gov.au/def/anzsrc-for": [
+    {
+      "label": "ABS/ARDC's anzsrc-for vocab, HTML",
+      "from_iri": "https://linked.data.gov.au/def/anzsrc-for",
+      "from_headers": null,
+      "to_iri": "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-for/resource?uri=https://linked.data.gov.au/def/anzsrc-for/2020",
+      "to_headers": null
+    },
+    {
+      "label": "ABS/ARDC's anzsrc-for vocab, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/anzsrc-for",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.ardc.edu.au/repository/redirects/anzsrc-2020-for/current.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/ausplots-cv": [
     {
       "label": "TERN's AusPlots, HTML",
@@ -80,24 +100,24 @@
     }
   ],
   "https://linked.data.gov.au/def/address-type": [
-  {
-  "label": "GSQ's address-type vocab, HTML",
-  "from_iri": "https://linked.data.gov.au/def/address-type",
-  "from_headers": null,
-  "to_iri": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type",
-  "to_headers": null
-  },
-  {
-  "label": "GSQ's address-type vocab, Accept Turtle",
-  "from_iri": "https://linked.data.gov.au/def/address-type",
-  "from_headers": {
-  "Accept": "text/turtle"
-  },
-  "to_iri": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
-  "to_headers": {
-  "Content-Type": "text/turtle;"
-  }
-  }
+    {
+      "label": "GSQ's address-type vocab, HTML",
+      "from_iri": "https://linked.data.gov.au/def/address-type",
+      "from_headers": null,
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type",
+      "to_headers": null
+    },
+    {
+      "label": "GSQ's address-type vocab, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/address-type",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
   ],
   "https://linked.data.gov.au/def/australian-phone-area-codes": [
     {
