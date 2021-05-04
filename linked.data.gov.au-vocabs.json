@@ -19,6 +19,26 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/anzsrc-seo": [
+    {
+      "label": "ABS/ARDC's anzsrc-seo vocab, HTML",
+      "from_iri": "https://linked.data.gov.au/def/anzsrc-seo",
+      "from_headers": null,
+      "to_iri": "https://vocabs.ardc.edu.au/repository/api/lda/anzsrc-2020-seo/resource?uri=https://linked.data.gov.au/def/anzsrc-seo/2020",
+      "to_headers": null
+    },
+    {
+      "label": "ABS/ARDC's anzsrc-seo vocab, Accept Turtle",
+      "from_iri": "https://linked.data.gov.au/def/anzsrc-seo",
+      "from_headers": {
+        "Accept": "text/turtle"
+      },
+      "to_iri": "https://vocabs.ardc.edu.au/repository/redirects/anzsrc-2020-seo/current.ttl",
+      "to_headers": {
+        "Content-Type": "text/turtle;"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/ausplots-cv": [
     {
       "label": "TERN's AusPlots, HTML",
