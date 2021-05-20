@@ -3,6 +3,9 @@ import httpx
 import asyncio
 import argparse
 from argparse import RawTextHelpFormatter
+from prettytable import PrettyTable
+import textwrap
+from operator import attrgetter
 
 
 class ValidationResult:
@@ -38,8 +41,6 @@ async def get_many(urls, headers=None):
             async with httpx.AsyncClient() as client:
                 return await client.get(url, headers=headers)
         except Exception as e:
-            print(url)
-            print(e)
             return httpx.Response(status_code=500)
 
     resps = await asyncio.gather(*map(get_async, urls))
@@ -109,39 +110,71 @@ if __name__ == "__main__":
         d.update(json.load(open(file)))
 
     if args.mode == "mappings":  # default
+        x = PrettyTable()
+        x.field_names = ["Redirect Name", "Expected", "Actual"]
+
         results = []
-        print("FAILURES")
-        no_failures = True
+        failures = False
         for k, v in d.items():
             for iri in v:
                 vr = validate_redirect(iri["label"], iri["from_iri"], iri["from_headers"], iri["to_iri"])
                 results.append(vr)
                 if not vr.success:
-                    no_failures = False
-                    print("for \"{}\", to: {}, got: {}".format(iri["label"], iri["to_iri"], vr.actual_result))
-        if no_failures:
-            print("none")
-        print()
+                    failures = True
+                    x.add_row([
+                        iri["label"],
+                        textwrap.fill(iri["to_iri"], 50),
+                        textwrap.fill(vr.actual_result, 50)
+                    ])
+        if failures:
+            print("FAILURES")
+            x.align = "l"
+            print(x)
+
         print("ALL RESULTS")
-        for r in results:
-            print(r.success, r.label)
+        y = PrettyTable()
+        y.field_names = ["Redirect Test Name", "Passed"]
+        for r in sorted(results, key=attrgetter("success")):
+            y.add_row([r.label, r.success])
+        y.align = "l"
+        print(y)
     elif args.mode == "failures":
-        print("FAILURES")
+        x = PrettyTable()
+        x.field_names = ["Passed", "Redirect Test Name"]
         for f in http_failures([x for x in d.keys()]):
-            print(f[0], f[1])
+            x.add_row([f[0], f[1]])
+        x.align = "l"
+        print(x)
     elif args.mode == "rdf":
+        x = PrettyTable()
+        x.field_names = ["Passed", "Redirect Test Name"]
         urls = [x for x in d.keys()]
-        print("FAILURES")
+        failures = False
         failed = []
         for f in http_rdf_failures(urls):
-            print(f[0], f[1])
+            x.add_row([f[0], f[1]])
             failed.append(f[0])
+            failures = True
 
-        print()
+        if failures:
+            print("FAILURES")
+            x.align = "l"
+            print(x)
         print("WORKING")
-        # print all those working
-        print("\n".join(sorted(list(set(urls) - set(failed)))))
+        y = PrettyTable()
+        y.field_names = ["IRI"]
+        y.add_row(["\n".join(sorted(list(set(urls) - set(failed))))])
+        y.align = "l"
+        print(y)
     elif args.mode == "ld":
-        print("FAILURES")
-        for f in ld_failures([x for x in d.keys()]):
-            print("{}: HTML {}, RDF {}".format(f[0], f[1].status_code, f[2].status_code))
+        x = PrettyTable()
+        x.field_names = ["IRI", "HTML Satus", "RDF Status"]
+        r = ld_failures([x for x in d.keys()])
+        if len(r) > 0:
+            print("FAILURES")
+            for f in r:
+                x.add_row([f[0], f[1].status_code, f[2].status_code])
+            x.align = "l"
+            print(x)
+        else:
+            print("no failures")
