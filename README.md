@@ -46,7 +46,7 @@ See the JSON files in this directory for all tests implemented so far.
 
 
 ## License
-This repository is licensed under Creative Commons 4.0 International. See the [LICENSE deed](LICENSE) in this repository for details.
+This repository is licensed under the Apache 2.0 license. See the [LICENSE deed](LICENSE) in this repository for details.
 
 
 ## Contacts
