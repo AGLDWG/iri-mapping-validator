@@ -164,14 +164,14 @@
       "label": "AusPlots Dataset, HTML",
       "from_iri": "https://linked.data.gov.au/dataset/ausplots",
       "from_headers": null,
-      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/ausplots/&sparql=https://graphdb.tern.org.au/repositories/ecoplots",
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/ausplots&sparql=https://graphdb.tern.org.au/repositories/ecoplots",
       "to_headers": null
     },
     {
       "label": "AusPlots Dataset, Accept Turtle",
       "from_iri": "https://linked.data.gov.au/dataset/ausplots",
       "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/ausplots/&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/ausplots&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
       "to_headers": {"Content-Type": "text/turtle"}
     }
   ],
@@ -180,14 +180,14 @@
       "label": "CorVeg Dataset, HTML",
       "from_iri": "https://linked.data.gov.au/dataset/corveg",
       "from_headers": null,
-      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg/&sparql=https://graphdb.tern.org.au/repositories/ecoplots",
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg&sparql=https://graphdb.tern.org.au/repositories/ecoplots",
       "to_headers": null
     },
     {
       "label": "CorVeg Dataset, Accept Turtle",
       "from_iri": "https://linked.data.gov.au/dataset/corveg",
       "from_headers": {"Accept": "text/turtle"},
-      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg/&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
+      "to_iri": "https://lodview.it/lodview/?IRI=http://linked.data.gov.au/dataset/corveg&sparql=https://graphdb.tern.org.au/repositories/ecoplots&output=text/turtle",
       "to_headers": {"Content-Type": "text/turtle"}
     }
   ]
